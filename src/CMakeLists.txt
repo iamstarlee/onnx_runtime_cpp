@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 set(LIBRARY_NAME ${PROJECT_NAME})
+set(onnxruntime_LIBS /home/whoami/Documents/Hanvon/onnx_runtime_cpp/onnxruntime)
 
 file(GLOB SOURCE_FILES
   ${PROJECT_SOURCE_DIR}/src/ImageClassificationOrtSessionHandler.cpp
