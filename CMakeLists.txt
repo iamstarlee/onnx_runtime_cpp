@@ -11,7 +11,6 @@ set(onnxruntime_INCLUDE_DIRS
   ${onnxruntime_INSTALL_PREFIX}/include/onnxruntime/core/session
 )
 
-find_library(onnxruntime_LIBS NAMES onnxruntime PATHS /home/whoami/Documents/Hanvon/onnx_runtime_cpp)
 
 find_package(CUDA QUIET)
 
